@@ -1,0 +1,7 @@
+<section>
+	<ul data-bind="foreach: console.logStack">
+		<li>
+			<div data-bind="compose: { model: {logs: logs}, view: 'views/templates/logStack.html' }"></div>			
+		</li>
+	</ul>
+</section>
